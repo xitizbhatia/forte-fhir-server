@@ -34,8 +34,8 @@
 	<description>OMOPonFHIR STU3 Server Build</description>
 
 	<modules>
-		<module>omoponfhir-fhirbase</module>
-		<module>omoponfhir-fhirbase-server</module>
+		<module>fhir-fhirbase</module>
+		<module>fhir-fhirbase-server</module>
 	</modules>
 
 	<licenses>
