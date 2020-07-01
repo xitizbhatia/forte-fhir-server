@@ -1,4 +1,4 @@
-# buzz-fhir-server
- FHIR server component of Buzz FHIR
+# forte-fhir-server
+ FHIR server component of FORTE platform
 
  Requirement: fhirbase with R4 database.
