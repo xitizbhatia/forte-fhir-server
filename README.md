@@ -17,7 +17,7 @@ sudo docker ps -a
 ```
 The docker id should be the first column of fhirbase/fhirbase:latest container. Copy the docker id and do the following command.
 ```
-docker exec -it [container ID from previous step] /bin/bash
+sudo docker exec -it [container ID from previous step] /bin/bash
 ```
 This will get you inside the docker image. Run psql to run the psql tool and create a database.
 ```
