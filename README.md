@@ -5,6 +5,7 @@ FHIR server component of FORTE platform.
 * docker (for docker installation).
 * jdk and maven (for manual compilation).
 
+## fhirbase Installation
 The following direction uses docker installation of fhirbase.
 ```
 sudo docker pull fhirbase/fhirbase:latest
@@ -31,7 +32,10 @@ Now you created a database in the fhirbase postgresql database. Now, at the prom
 ```
 fhirbase -d <database name> --fhir=4.0.0 init
 ```
-Your database is ready for the FHIR server. FORTE FHIR server can be downloaded from github repo and built as a FHIR server. Do the following to clone the java application from github. 
+Your database is ready for the FHIR server. Other postgresql tools can be used to manage the database.
+
+## FHOR FHIR Server Installation
+FORTE FHIR server can be downloaded from github repo and built as a FHIR server. Do the following to clone the java application from github. 
 ```
 git clone --recurse https://github.com/MortalityReporting/forte-fhir-server.git
 ```
