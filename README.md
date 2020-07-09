@@ -1,6 +1,6 @@
 # forte-fhir-server
 FHIR server component of FORTE platform.
-## Pre-requisite
+## Prerequisite
 * fhirbase (postgresql) with FHIR-R4 database.
 * docker (for docker installation).
 * jdk and maven (for manual compilation).
