@@ -30,7 +30,7 @@ postgres=#\q
 ```
 Now you created a database in the fhirbase postgresql database. Now, at the prompt (of container), run the follow,
 ```
-fhirbase -d <database name> --fhir=4.0.0 init
+postgres@xxxxxxxxx:/$ fhirbase -d <database name> --fhir=4.0.0 init
 ```
 Your database is ready for the FHIR server. Other postgresql tools can be used to manage the database.
 
