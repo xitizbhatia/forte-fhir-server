@@ -12,6 +12,6 @@ RUN apk update
 RUN apk add zip postgresql-client
 
 # Copy GT-FHIR war file to webapps.
-COPY --from=builder /usr/src/app/fhir-fhirbase-server/target/fhir-fhirbase-server.war $CATALINA_HOME/webapps/buzzpfhir-server.war
+COPY --from=builder /usr/src/app/fhir-fhirbase-server/target/fhir-fhirbase-server.war $CATALINA_HOME/webapps/forte-fhir-server.war
 
 EXPOSE 8080
